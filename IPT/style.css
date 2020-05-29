@@ -122,7 +122,8 @@ header .new{
 
 .images-1 .container {
 	
-	background: url("img/c-photo.jpg") no-repeat ;
+	background: url("img/c-photo.jpg") no-repeat;
+	background-size: cover;
 	border: 2px solid darkred;
     margin-top: 20px;
     padding-left: 20px;

@@ -32,7 +32,7 @@
             <div class="dropdown">
                 <button onclick="myFunction()" class="dropbtn">Dropdown</button>
                 <div id="myDropdown" class="dropdown-content">
-                    <a onclick="document.getElementById('AsVol').style.display='block' ">As a Volunteer</a>
+                    <a onclick="document.getElementById('AsVol').style.display='block'">As a Volunteer</a>
                     <a onclick="document.getElementById('AsNGO').style.display = 'block'">Register as a NGO/Charitable Trust</a>
                 </div>
             </div>
@@ -49,18 +49,22 @@
                 <input type="text" id="head" name="Head" placeholder="Name" required>
 
                 <label for="contact"><b>Phone No.</b></label>
-                <input type="number" id="pno" name="phone" placeholder="Contact No." required>
+                <input type="number" id="pno" name="phone" placeholder="Contact No." required><br>
 
                 <label for="email"><b>Email ID</b><i>(if available)</i></label>
                 <input type="email" id="email" name="Email" placeholder="Provide your Email Id (if available"><br>
 
                 <label for="address"><b>Address</b></label>
                 <input type="text" name="address" id="add" placeholder="Address" required><br>
+                <label for="dist"><b>District</b></label>
+                <input type="text" name="dist" class="Dist" placeholder="District" required>
+                <label for="state"><b>State</b></label>
+                <input type="text" name="stat" class="stat" placeholder="State" required><br>
 
                 <label for="donation"><b>How Can You Help Us?</b></label><br>
                 <input type="checkbox" name="check1">Eatable<br>
                 <input type="checkbox" name="check2">Shelter<br>
-                <input type="checkbox" name="check3">Money<input type="number" name="money" placeholder="" ><br>
+                <input type="checkbox" name="check3">Money<input type="number" name="money" placeholder="₹" ><br>
                 <input type="checkbox" name="check4">Clothes<br>
                 <input type="checkbox" name="check5">Footwear<br>
                 <input type="checkbox" name="check6">Medicine<br>
@@ -73,15 +77,19 @@
                 <label for="name" ><b>Please Enter your name</b></label>
                 <input type="text" name="name" id="fname" placeholder="Please Enter your name">
                 <label for="contact"><b>Please Provide Your Contact no.</b></label>
-                <input type="number" id="vno" name="vno" placeholder="Contact No.">
+                <input type="number" id="vno" name="vno" placeholder="Contact No."><br>
                 <label for="vemail"><b>Email Id</b><i>(if any)</i></label>
                 <input type="email" name="vemail" id="vema" placeholder="Email Id(if any)"><br>
                 <label for="vadd"><b>Address</b></label>
                 <input type="text" name="vadd" placeholder="Your Address">
-                <label for="contri"><b>What Can You Contribute</b></label>
+                <label for="dist"><b>District</b></label>
+                <input type="text" name="dist" class="Dist" placeholder="District" required>
+                <label for="state"><b>State</b></label>
+                <input type="text" name="stat" class="stat" placeholder="State" required><br>
+                <label for="contri"><b>What Can You Contribute</b></label><br>
                 <input type="checkbox" name="checka">Eatable<br>
                 <input type="checkbox" name="checkb">Shelter<br>
-                <input type="checkbox" name="checkc">Money<br>
+                <input type="checkbox" name="checkc">Money<input type="number" name="money" placeholder="₹" ><br>
                 <input type="checkbox" name="checkd">Clothes<br>
                 <input type="checkbox" name="checke">Footwear<br>
                 <input type="checkbox" name="checkf">Medicine<br>
